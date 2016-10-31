@@ -388,7 +388,7 @@ function findNextOfKin(person){
 function filterByAttributes(inputArray){
 	var resultArray=dataArray
 	if(inputArray[0]!=""){
-		resultArray=dataArray.filter(hasAge,inputArray[0])
+		resultArray=resultArray.filter(hasAge,inputArray[0])
 	}
 	if(inputArray[1]!=""){
 		resultArray=resultArray.filter(withinAgeRange,inputArray[1])
